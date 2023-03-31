@@ -1,4 +1,4 @@
-# Reddit r/Place canvas rendering using C
+# Reddit r/place canvas rendering using C
 
 Quick and Effiecient generation of frames for timelapse of reddit rplace canvas. Includes custom IHDR, IDAT and IEND chunks to optimise image processing. uses inplace memory with peak mem usage less than 15MB.
 
