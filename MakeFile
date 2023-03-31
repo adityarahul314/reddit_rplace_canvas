@@ -1,0 +1,14 @@
+SHELL = /usr/bin/bash
+
+OBJS = draw_image.o
+CC = gcc
+INCLUDE = -lz
+
+draw_image:${OBJ}
+	${CC} ${INCLUDES} -o $@ ${OBJS}
+
+clean:
+	-rm -f *.o
+
+.c.o:
+	${CC} ${INCLUDES} -c $<
