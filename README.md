@@ -27,7 +27,7 @@ Data Set:
       7: #FF3881  15: #898D90 23: #493AC1 31: #000000
   ```
   - complete data set "2022-compact.csv" is obtained from https://drive.google.com/file/d/1NuKb6oaRqnILN0MKYKqMXwHDDbnQMAV_/view
-  - data set can be extracted using !(zstandard)[https://github.com/facebook/zstd/]
+  - data set can be extracted using [zstandard](https://github.com/facebook/zstd/)
   ```
   zstd -d 2022-compact.csv.zst
   ```
