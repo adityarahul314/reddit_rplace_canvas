@@ -13,6 +13,7 @@ Usage:
   ./draw_image.o 1000 //renders image using first 1000 entries
 ```
 Data Set:
+  - included data set contains only first 10 entries. complete data set is listed at the end.
   - data format is "timestamp,user_hash,color,x_coordinate,y_coordinate,x2_coordinate,y2_coordinate"
   - color palette is
   ```
@@ -26,4 +27,8 @@ Data Set:
       7: #FF3881  15: #898D90 23: #493AC1 31: #000000
   ```
   - complete data set "2022-compact.csv" is obtained from https://drive.google.com/file/d/1NuKb6oaRqnILN0MKYKqMXwHDDbnQMAV_/view
+  - data set can be extracted using !(zstandard)[https://github.com/facebook/zstd/]
+  ```
+  zstd -d 2022-compact.csv.zst
+  ```
   - credit for data set: https://www.reddit.com/r/place/comments/txvk2d/comment/i3utewb/?utm_source=share&utm_medium=web2x&context=3
