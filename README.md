@@ -2,8 +2,6 @@
 
 Quick and Effiecient generation of frames for timelapse of reddit rplace canvas. Includes custom IHDR, IDAT and IEND chunks to optimise image processing. uses inplace memory with peak mem usage less than 15MB.
 
-![](https://github.com/adityarahul314/reddit_rplace_canvas/blob/main/proc_img.png)
-
 Requirements:
   - "zlib.h" zlib compression library to compress image to reasonable size.
 
@@ -33,4 +31,5 @@ Data Set:
   ```
   zstd -d 2022-compact.csv.zst
   ```
+  ![](https://github.com/adityarahul314/reddit_rplace_canvas/blob/main/proc_img.png)
   - credit for data set: https://www.reddit.com/r/place/comments/txvk2d/comment/i3utewb/?utm_source=share&utm_medium=web2x&context=3
