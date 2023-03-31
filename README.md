@@ -1,2 +1,3 @@
-# reddit_rplace_canvas
-reddit rplace 2022 canvas rendering using C
+# Reddit r/Place canvas rendering using C
+
+Quick and Effiecient generation of frames for timelapse of reddit rplace canvas.
